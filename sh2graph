@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -v $PWD:/go/src/app -it --rm --name running-sh2graph izgzhen/sh2graph go run main.go $1
